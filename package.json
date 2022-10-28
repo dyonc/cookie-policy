@@ -1,6 +1,6 @@
 {
   "name": "@dyonic/cookie-policy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A script and style sheet that displays a cookie policy notification",
   "main": "build/js/module.js",
   "iife": "build/js/cookie-policy.js",
@@ -17,6 +17,7 @@
   "devDependencies": {
     "@babel/core": "7.16.7",
     "@babel/preset-env": "7.16.7",
+    "@dyonic/vanilla-framework": "1.0.1",
     "eslint": "8.6.0",
     "npm-watch": "0.11.0",
     "prettier": "2.5.1",
@@ -27,8 +28,7 @@
     "sass": "1.45.2",
     "stylelint": "14.2.0",
     "stylelint-config-standard": "24.0.0",
-    "stylelint-order": "5.0.0",
-    "vanilla-framework": "3.8.0"
+    "stylelint-order": "5.0.0"
   },
   "watch": {
     "buildJs": "src/js/*.js",

@@ -1153,6 +1153,30 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@dyonic/cookie-policy@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@dyonic/cookie-policy/-/cookie-policy-1.0.2.tgz#ac0f21a6dd2faf7ea0dd868e51c96c5732b70a83"
+  integrity sha512-37YUaa4AaEcDhwbkEolHIczhsqZlw4O3SHE8OLyXl/GBBFnwlm/iuvJPbaylbakbyxVbAolzoElrGkj18dXbwg==
+
+"@dyonic/latest-news@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@dyonic/latest-news/-/latest-news-1.0.1.tgz#05ae3f5ac15689bd81d53ad5d9dc382fef9ade24"
+  integrity sha512-OQB08p+RUZXuTJTwlmZtwyIVzqUhb9vlGkgxhLsJMKFyHg8jsQPJDogdDxqxsePjcMYxLV5wHMGI9kVMLgznqw==
+
+"@dyonic/vanilla-framework@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@dyonic/vanilla-framework/-/vanilla-framework-1.0.1.tgz#1e1beaa171187813b449476318ad19d83fab2844"
+  integrity sha512-/xMaCwOewG1kZnO6Z6krjgTw24RZDzmKBzn4Xw2hnB4BogOiQA0K5lf4YPxND725RgGS88awNLkzrtb7qM7blw==
+  dependencies:
+    "@dyonic/cookie-policy" "1.0.2"
+    "@dyonic/latest-news" "1.0.1"
+    autoprefixer "10.4.8"
+    postcss "8.4.14"
+    postcss-cli "9.1.0"
+    postcss-scss "4.0.4"
+    sass "1.54.0"
+    yaml "1.10.2"
+
 "@eslint/eslintrc@^1.0.5":
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-1.0.5.tgz#33f1b838dbf1f923bfa517e008362b78ddbbf318"
@@ -4043,20 +4067,6 @@ validate-npm-package-license@^3.0.1:
   dependencies:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
-
-vanilla-framework@3.8.0:
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/vanilla-framework/-/vanilla-framework-3.8.0.tgz#7fe17cad5be598fda59659472d8e22b721614391"
-  integrity sha512-WDbROdn3HyL5BQ5nwkG89WULrIWYX8LiIhxgOUxITLcEXfBPw3hEGwnWbqlpcz9uN5sMS/7n9xOUt1LfTq6+KA==
-  dependencies:
-    "@dyonic/cookie-policy" "1.0.1"
-    "@dyonic/latest-news" "1.0.1"
-    autoprefixer "10.4.8"
-    postcss "8.4.14"
-    postcss-cli "9.1.0"
-    postcss-scss "4.0.4"
-    sass "1.54.0"
-    yaml "1.10.2"
 
 which@^1.3.1:
   version "1.3.1"
