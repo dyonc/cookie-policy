@@ -16,7 +16,6 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: yarn install
       - run: yarn build
-      - run: yarn lint
       - run: yarn test
         env:
           CI: true
